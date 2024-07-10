@@ -1,7 +1,9 @@
 package contas
 
+import "github.com/mrcsmotta1/sistemaBancarioPOO/src/clientes"
+
 type ContaCorrente struct {
-	Titular       string
+	Titular       clientes.Titular
 	NumeroAgencia int
 	NumeroConta   int
 	Saldo         float64
